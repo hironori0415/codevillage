@@ -1,0 +1,677 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/*# sourceMappingURL=reset.css.map */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 12px;
+  line-height: 1.6;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #707070;
+}
+h2:after {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #707070;
+  width: 9.9rem;
+  margin: 0 0 0.7rem 2.2rem;
+  height: 0.9rem;
+}
+
+.inner {
+  width: 83.4%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .inner {
+    padding: 50px 0;
+    width: 90%;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 7.7rem 0;
+  position: absolute;
+  z-index: 10;
+}
+@media screen and (max-width: 959px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    position: initial;
+    padding: 1.6rem 0;
+    align-items: center;
+  }
+}
+
+.hd-logo {
+  padding-left: 7.7rem;
+  font-size: 3.8rem;
+  width: 38.3rem;
+  height: 3.8rem;
+  font: normal normal normal 3.8rem/4.6rem Roboto Mono for Powerline;
+}
+@media screen and (max-width: 600px) {
+  .hd-logo {
+    font-size: 2.2rem;
+    width: 17.7rem;
+    margin-left: 2.1rem;
+    padding-left: initial;
+  }
+}
+
+nav {
+  font-size: 1.8rem;
+  width: 38.1rem;
+  height: 4.2rem;
+  padding: 1rem 0 0 2rem;
+  letter-spacing: 1.8px;
+}
+@media screen and (max-width: 959px) {
+  nav {
+    display: none;
+  }
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  width: 41.1rem;
+}
+
+.pc-navmenu ul li:nth-child(1) {
+  color: #000000;
+  border-bottom: 0.5px solid black;
+  width: 4.8rem;
+}
+.pc-navmenu ul li:nth-child(2),
+.pc-navmenu ul li:nth-child(3),
+.pc-navmenu ul li:nth-child(4) {
+  color: #707070;
+}
+
+.ham {
+  display: none;
+}
+@media screen and (max-width: 959px) {
+  .ham {
+    width: 16px;
+    height: 14px;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  .ham span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #3B4043;
+  }
+  .ham span:nth-child(3) {
+    width: 70%;
+  }
+}
+
+.first-v {
+  background-image: url(../img/Blond\ woman\ with\ long\ curly\ beautiful\ hair.png);
+  margin-left: auto;
+  background-size: cover;
+  width: 53%;
+  height: 80rem;
+}
+@media screen and (max-width: 600px) {
+  .first-v {
+    width: 100%;
+    height: 59.7rem;
+    position: initial;
+    margin-left: initial;
+    flex-direction: column-reverse;
+    text-shadow: 0 3px 16px #000000;
+  }
+}
+
+.first-v_wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  width: 39.0rem;
+  height: 21.4rem;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+}
+@media screen and (max-width: 600px) {
+  .first-v_wrap {
+    flex-direction: column-reverse;
+    color: #FFFFFF;
+    height: 11.8rem;
+    width: 32rem;
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+.first-v_wrap .first-v_catch {
+  font-family: Hiragino Mincho Pro;
+  font-size: 3.8rem;
+  text-align: center;
+  width: 32.6rem;
+  height: 3.8rem;
+  min-width: 19.5rem;
+}
+@media screen and (max-width: 600px) {
+  .first-v_wrap .first-v_catch {
+    font-size: 2.3rem;
+    width: 32rem;
+  }
+}
+.first-v_wrap .first-v_catch2 {
+  font-family: Zapfino,Regular;
+  font-size: 3.8rem;
+  display: inline-block;
+  width: 39rem;
+}
+@media screen and (max-width: 600px) {
+  .first-v_wrap .first-v_catch2 {
+    width: 32rem;
+  }
+}
+.first-v_wrap .first-v_catch2 p {
+  text-align: left;
+  line-height: 3.8rem;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  .first-v_wrap .first-v_catch2 p {
+    text-align: center;
+    font-size: 2.8rem;
+  }
+}
+
+.concept {
+  background: linear-gradient(180deg, #A193861F 0%, #A193861F 42%, #A1938689 42%, #A1938689 100%);
+  width: 100vw;
+  height: 96.7rem;
+  overflow: hidden;
+  min-width: 31rem;
+}
+@media screen and (max-width: 600px) {
+  .concept {
+    height: 71.1rem;
+    background: linear-gradient(180deg, #A193861F 0%, #A193861F 25%, #A1938689 25%, #A1938689 100%);
+  }
+}
+
+.concept h2 {
+  padding: 15% 0 1% 8%;
+}
+
+.concept-item {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 10.5rem;
+}
+@media screen and (max-width: 600px) {
+  .concept-item {
+    margin-top: 5.4rem;
+    padding: 0 2.1rem;
+  }
+}
+
+.concept-item_img {
+  margin-right: 0.8%;
+  width: 100%;
+  height: 41.3rem;
+}
+@media screen and (max-width: 959px) {
+  .concept-item_img {
+    height: 205px;
+    margin-right: 0.7rem;
+  }
+}
+@media screen and (max-width: 959px) {
+  .concept-item_img img {
+    width: 100%;
+    height: 205px;
+    object-position: 100% 50%;
+    object-fit: cover;
+  }
+}
+
+.concept-item_img2 {
+  width: 100%;
+  height: 41.3rem;
+}
+@media screen and (max-width: 959px) {
+  .concept-item_img2 {
+    height: 205px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .concept-item_img2 img {
+    width: 100%;
+    height: 205px;
+    object-position: 100% 50%;
+    object-fit: cover;
+  }
+}
+
+.concept-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 6.9rem 18.4rem 6.4rem 17.4rem;
+  color: #FFFFFF;
+}
+@media screen and (max-width: 959px) {
+  .concept-wrap {
+    display: flex;
+    justify-content: center;
+    height: 25.8rem;
+    flex-direction: column;
+    margin: 50px 21px;
+  }
+}
+
+.concept-wrap_item {
+  font-family: Hiragino Mincho Pro;
+  font-size: 4rem;
+  width: 44.5rem;
+}
+@media screen and (max-width: 600px) {
+  .concept-wrap_item {
+    font-size: 1.8rem;
+    width: initial;
+  }
+}
+
+.concept-wrap_item2 {
+  font-family: Hiragino Kaku Gothic Pro;
+  font-size: 1.6rem;
+  width: 48rem;
+  margin-left: 5rem;
+}
+@media screen and (max-width: 600px) {
+  .concept-wrap_item2 {
+    font-size: 1.6rem;
+    width: initial;
+    margin-left: initial;
+    margin-top: 1.8rem;
+  }
+}
+
+.title {
+  padding-top: 19%;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 27%;
+}
+@media screen and (max-width: 959px) {
+  .menu-item {
+    width: 100%;
+    margin-top: 5rem;
+  }
+}
+.menu-item__img {
+  width: 100%;
+  height: 45%;
+}
+@media screen and (max-width: 959px) {
+  .menu-item__img {
+    height: 80%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .menu-item__img {
+    height: 65%;
+  }
+}
+@media screen and (max-width: 959px) {
+  .menu-item__img img {
+    width: 100%;
+  }
+}
+
+.menu__content {
+  font-family: Roboto Mono for Powerline;
+}
+.menu__content__title {
+  font-size: 3.0rem;
+  text-align: center;
+  margin-top: 3.7rem;
+}
+@media screen and (max-width: 959px) {
+  .menu__content__title {
+    text-align: left;
+    margin-top: 3rem;
+  }
+}
+.menu__content__intro {
+  font-size: 1.6rem;
+  margin-top: 3.4rem;
+  letter-spacing: 0.16em;
+}
+@media screen and (max-width: 959px) {
+  .menu__content__intro {
+    margin-top: 3rem;
+  }
+}
+.menu__content__money {
+  font-size: 1.6rem;
+  text-align: right;
+  margin-top: 1em;
+}
+@media screen and (max-width: 959px) {
+  .menu__content__money {
+    margin-top: 3rem;
+  }
+}
+
+.access {
+  background-color: #A193861F;
+  width: 100%;
+  height: 75.7rem;
+}
+.access-title {
+  padding: 15% 0 0 8%;
+}
+@media screen and (max-width: 600px) {
+  .access-title {
+    height: 40rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  padding: 20px;
+}
+.access-ad {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 600px) {
+  .access-ad {
+    flex-direction: column-reverse;
+    height: 28rem;
+  }
+}
+
+.address {
+  width: 50.7rem;
+  height: 39.6rem;
+  background-color: #D0C5BA;
+  align-items: center;
+  padding: 10.1rem 19.3rem 10.312rem 10.4rem;
+}
+@media screen and (max-width: 600px) {
+  .address {
+    width: 100%;
+    padding: 3rem 2rem 6rem;
+    justify-content: left;
+  }
+}
+
+.address-s {
+  font-size: 2.4rem;
+  color: #00000038;
+  margin-bottom: 30px;
+  letter-spacing: 2.4px;
+}
+
+.address-t {
+  font-size: 1.6rem;
+  color: #FFFFFF;
+  white-space: nowrap;
+  letter-spacing: 0.16em;
+  line-height: 2.3;
+}
+
+.access-wrap {
+  width: 100%;
+}
+.access-wrap .map {
+  width: 100%;
+  height: 39.6rem;
+  flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+  .access-wrap .map {
+    width: 100%;
+    height: 23rem;
+  }
+}
+
+.footer {
+  width: 100vw;
+  height: 34.2rem;
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 26rem;
+  }
+}
+
+.footer-border {
+  display: inline-block;
+  content: "";
+  border-bottom: 1px solid #70707036;
+  width: 80%;
+  margin: 16.45rem  10.65rem 0 12.75rem;
+}
+@media screen and (max-width: 959px) {
+  .footer-border {
+    margin: 6.35rem 3rem 6.05rem 3rem;
+  }
+}
+
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8.35rem 0 6.2rem 0;
+}
+@media screen and (max-width: 959px) {
+  .footer-wrap {
+    flex-direction: column-reverse;
+    margin: initial;
+    margin-bottom: 1.9rem;
+  }
+}
+
+.footer-wrap__intro {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+@media screen and (max-width: 959px) {
+  .footer-wrap__intro {
+    justify-content: space-around;
+    margin: 6.2rem 2rem  0 2rem;
+  }
+}
+
+.footer-title {
+  font-size: 3.2rem;
+  color: #7070704D;
+  margin: 0 1.7rem 0 10.3rem;
+  letter-spacing: 0.32rem;
+}
+@media screen and (max-width: 959px) {
+  .footer-title {
+    margin: initial;
+    font-size: 1.8rem;
+    margin-right: 5.2rem;
+  }
+}
+
+.footer-logo-item {
+  font-size: 2rem;
+  color: initial;
+  margin: 0.8rem 0 1rem 0.9rem;
+}
+@media screen and (max-width: 959px) {
+  .footer-logo-item {
+    margin: initial;
+    font-size: 1.8rem;
+  }
+}
+
+.footer-text {
+  font-family: Roboto Mono for Powerline;
+  font-size: 1.8rem;
+  color: #707070;
+  letter-spacing: 0.18rem;
+  padding: 1.0rem 4.1rem 0.9rem 4.1rem;
+  border: 1px solid #707070;
+  margin-right: 11.3rem;
+}
+@media screen and (max-width: 959px) {
+  .footer-text {
+    padding: 0.4rem 4.4rem 0.4rem 4.4rem;
+    margin-right: initial;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

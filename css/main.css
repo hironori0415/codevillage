@@ -114,15 +114,12 @@ input, select {
 /*# sourceMappingURL=reset.css.map */
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
 }
 
 body {
   font-size: 12px;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  max-width: 1282px;
-  min-width: 320px;
 }
 
 h2 {
@@ -325,7 +322,7 @@ nav ul {
   width: 100vw;
   height: 96.7rem;
   overflow: hidden;
-  min-width: 320px;
+  min-width: 31rem;
 }
 @media screen and (max-width: 600px) {
   .concept {
@@ -342,82 +339,49 @@ nav ul {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  margin: 0 10.5rem;
-}
-@media screen and (max-width: 959px) {
-  .concept-item {
-    margin: 0 1%;
-  }
+  padding: 0 10.5rem;
 }
 @media screen and (max-width: 600px) {
   .concept-item {
-    margin: 5.4rem 1rem 0;
+    margin-top: 5.4rem;
+    padding: 0 2.1rem;
   }
 }
 
 .concept-item_img {
   margin-right: 0.8%;
-  width: 67.5rem;
+  width: 100%;
   height: 41.3rem;
 }
 @media screen and (max-width: 959px) {
   .concept-item_img {
-    width: 100%;
-  }
-}
-@media screen and (max-width: 600px) {
-  .concept-item_img {
-    height: 20.5rem;
+    height: 205px;
     margin-right: 0.7rem;
   }
-}
-.concept-item_img img {
-  width: 100%;
-  height: 413px;
-  object-position: 100% 50%;
-  object-fit: cover;
 }
 @media screen and (max-width: 959px) {
   .concept-item_img img {
     width: 100%;
-    object-position: 95% 50%;
-    object-fit: cover;
-  }
-}
-@media screen and (max-width: 600px) {
-  .concept-item_img img {
-    width: 100%;
-    height: 20.5rem;
-    object-position: 95% 50%;
+    height: 205px;
+    object-position: 100% 50%;
     object-fit: cover;
   }
 }
 
 .concept-item_img2 {
-  width: 39.1rem;
+  width: 100%;
   height: 41.3rem;
 }
 @media screen and (max-width: 959px) {
   .concept-item_img2 {
-    width: 100%;
+    height: 205px;
   }
 }
-@media screen and (max-width: 600px) {
-  .concept-item_img2 {
-    height: 20.5rem;
-  }
-}
-.concept-item_img2 img {
-  width: 100%;
-  height: 413px;
-  object-position: 100% 50%;
-  object-fit: cover;
-}
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
   .concept-item_img2 img {
     width: 100%;
-    height: 20.5rem;
-    object-position: 75% 50%;
+    height: 205px;
+    object-position: 100% 50%;
     object-fit: cover;
   }
 }
@@ -426,53 +390,36 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 6.9rem auto 6.4rem;
+  margin: 6.9rem 18.4rem 6.4rem 17.4rem;
   color: #FFFFFF;
 }
 @media screen and (max-width: 959px) {
   .concept-wrap {
     display: flex;
-    justify-content: space-between;
-    width: 60vw;
+    justify-content: center;
     height: 25.8rem;
     flex-direction: column;
-    margin: 50px auto;
-  }
-}
-@media screen and (max-width: 600px) {
-  .concept-wrap {
-    width: 95vw;
+    margin: 50px 21px;
   }
 }
 
 .concept-wrap_item {
   font-family: Hiragino Mincho Pro;
   font-size: 4rem;
-  width: 34%;
-}
-@media screen and (max-width: 959px) {
-  .concept-wrap_item {
-    width: initial;
-    margin: 0 auto;
-  }
+  width: 44.5rem;
 }
 @media screen and (max-width: 600px) {
   .concept-wrap_item {
     font-size: 1.8rem;
+    width: initial;
   }
 }
 
 .concept-wrap_item2 {
   font-family: Hiragino Kaku Gothic Pro;
   font-size: 1.6rem;
-  width: 32%;
+  width: 48rem;
   margin-left: 5rem;
-}
-@media screen and (max-width: 959px) {
-  .concept-wrap_item2 {
-    width: initial;
-    margin: 0 auto;
-  }
 }
 @media screen and (max-width: 600px) {
   .concept-wrap_item2 {
@@ -498,7 +445,6 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
   width: 27%;
 }
 @media screen and (max-width: 959px) {
@@ -509,7 +455,7 @@ nav ul {
 }
 .menu-item__img {
   width: 100%;
-  height: 50%;
+  height: 45%;
 }
 @media screen and (max-width: 959px) {
   .menu-item__img {
@@ -521,10 +467,6 @@ nav ul {
     height: 65%;
   }
 }
-.menu-item__img img {
-  width: 100%;
-  height: 100%;
-}
 @media screen and (max-width: 959px) {
   .menu-item__img img {
     width: 100%;
@@ -532,11 +474,9 @@ nav ul {
 }
 
 .menu__content {
-  width: 93%;
   font-family: Roboto Mono for Powerline;
 }
 .menu__content__title {
-  width: 100%;
   font-size: 3.0rem;
   text-align: center;
   margin-top: 3.7rem;
@@ -548,7 +488,6 @@ nav ul {
   }
 }
 .menu__content__intro {
-  width: 100%;
   font-size: 1.6rem;
   margin-top: 3.4rem;
   letter-spacing: 0.16em;
@@ -559,7 +498,6 @@ nav ul {
   }
 }
 .menu__content__money {
-  width: 100%;
   font-size: 1.6rem;
   text-align: right;
   margin-top: 1em;

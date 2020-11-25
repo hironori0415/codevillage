@@ -83,3 +83,59 @@ nav {
         }
     }
 }
+// .hamburger-btn.active {
+//   .hamburger-btn__parts {
+//     &.-top {
+//       transform: translateY(10px) rotate(-45deg);
+//     }
+//     //2つ目のspanを消す
+//     &.-middle {
+//       opacity: 0;
+//     }
+//     //3番目のspanを45度に
+//     &.-bottom {
+//       transform: translateY(-4px) rotate(45deg);
+//     }
+//   }
+// }
+
+// //スライドメニュー
+// .hamburger {
+//   display: none;
+//   @include tab {
+//     display: block;
+//     position: fixed;
+//     z-index: 10;
+//     top: 0;
+//     right: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     transform: translateX(100vw);
+//     transition: all 0.3s;
+//     background-color: $color-black;
+//     &__lists {
+//       display: flex;
+//       flex-direction: column;
+//       justify-content: center;
+//       align-items: center;
+//       width: 100vw;
+//       height: 100vh;
+//     }
+//     &__list {
+//       @include rem(16);
+//       list-style: none;
+//       text-align: center;
+//     }
+//     &__list + &__list {
+//       padding-top: 50px;
+//     }
+//     &__link {
+//       text-decoration: none;
+//       color: $color-white;
+//     }
+//   }
+// }
+// //activeクラスをつけたら、スライドイン
+// .hamburger.active {
+//   transform: translateX(0);
+// }

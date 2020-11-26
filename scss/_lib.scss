@@ -45,12 +45,15 @@ $color3: #707070;
 
 html {
     font-size: 62.5%; // 10px
+    scroll-behavior: smooth;
 }
 
 body {
     font-size: 12px;
     line-height: 1.6;
     letter-spacing: 0.1em;
+    max-width: 1282px;
+    min-width: 320px;
 }
 
 h2 {

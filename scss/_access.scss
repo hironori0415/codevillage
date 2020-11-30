@@ -4,15 +4,18 @@
   height: 75.7rem;
   &-title{
   padding: 15% 0 0 8%;
+  @include tab {
+    padding: 10% 0 0 8%;
+  }
   @include sp {
     height: 40rem;
 
   }
   }
   }
-  @include sp {
-  padding: 20px;
-  }
+  // @include sp {
+  // padding: 20px;
+  // }
 
 
 .access-ad {
@@ -31,11 +34,16 @@
   background-color: #D0C5BA;
   align-items: center;
   padding: 10.1rem 19.3rem 10.312rem 10.4rem ;
+  @include tab {
+    width: 40%;
+    padding: 10.1rem 6rem 10.312rem 3rem ;
+  }
   @include sp {
     width: 100%;
     // height: 280px;
-    padding: 3rem 2rem 6rem;
+    padding: 3rem 2rem 4rem;
     justify-content: left;
+    height: 28rem;
 }
 }
 
@@ -59,13 +67,26 @@
 
 .access-wrap {
   width: 100%;
+  height: 52%;
+  @include tab {
+    width: 100%;
+    height: 39.5rem;
+  }
+  @include sp {
+    height: 29rem;
+  }
+
 .map {
     width: 100%;
     height: 39.6rem;
     flex-direction: column;
+    @include tab {
+      width: 100%;
+      height: 100%;
+    }
     @include sp {
       width: 100%;
-      height: 23rem;
+      height: 100%;
       }
     }
   }

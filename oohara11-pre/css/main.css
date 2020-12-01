@@ -121,7 +121,7 @@ body {
   font-size: 12px;
   line-height: 1.6;
   letter-spacing: 0.1em;
-  max-width: 1282px;
+  max-width: 2560px;
   min-width: 320px;
 }
 
@@ -142,7 +142,7 @@ h2:after {
   width: 83.4%;
   margin: 0 auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .inner {
     padding: 50px 0;
     width: 90%;
@@ -176,7 +176,7 @@ header {
   height: 3.8rem;
   font: normal normal normal 3.8rem/4.6rem Roboto Mono for Powerline;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .hd-logo {
     font-size: 2.2rem;
     width: 17.7rem;
@@ -247,7 +247,7 @@ nav ul {
   width: 53%;
   height: 80rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .first-v {
     width: 100%;
     height: 59.7rem;
@@ -271,14 +271,14 @@ nav ul {
   transform: translate(-50%, -50%);
   color: #000000;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .first-v_wrap {
     flex-direction: column-reverse;
     color: #FFFFFF;
-    height: 11.8rem;
+    height: 8em;
     width: 32rem;
     position: absolute;
-    top: 64%;
+    top: 58%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
@@ -291,7 +291,7 @@ nav ul {
   height: 3.8rem;
   min-width: 19.5rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .first-v_wrap .first-v_catch {
     font-size: 2.3rem;
     width: 32rem;
@@ -303,7 +303,7 @@ nav ul {
   display: inline-block;
   width: 39rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .first-v_wrap .first-v_catch2 {
     width: 32rem;
   }
@@ -313,7 +313,7 @@ nav ul {
   line-height: 3.8rem;
   height: auto;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .first-v_wrap .first-v_catch2 p {
     text-align: center;
     font-size: 2.8rem;
@@ -327,7 +327,7 @@ nav ul {
   overflow: hidden;
   min-width: 320px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept {
     height: 71.1rem;
     background: linear-gradient(180deg, #A193861F 0%, #A193861F 25%, #A1938689 25%, #A1938689 100%);
@@ -349,7 +349,7 @@ nav ul {
     margin: 0 1%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-item {
     margin: 5.4rem 1rem 0;
   }
@@ -365,7 +365,7 @@ nav ul {
     width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-item_img {
     height: 20.5rem;
     margin-right: 0.7rem;
@@ -384,7 +384,7 @@ nav ul {
     object-fit: cover;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-item_img img {
     width: 100%;
     height: 20.5rem;
@@ -402,7 +402,7 @@ nav ul {
     width: 100%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-item_img2 {
     height: 20.5rem;
   }
@@ -413,7 +413,7 @@ nav ul {
   object-position: 100% 50%;
   object-fit: cover;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-item_img2 img {
     width: 100%;
     height: 20.5rem;
@@ -439,7 +439,7 @@ nav ul {
     margin: 50px auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-wrap {
     width: 95vw;
   }
@@ -456,7 +456,7 @@ nav ul {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-wrap_item {
     font-size: 1.8rem;
   }
@@ -474,12 +474,11 @@ nav ul {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .concept-wrap_item2 {
     font-size: 1.6rem;
     width: initial;
-    margin-left: initial;
-    margin-top: 1.8rem;
+    margin: 1.8rem 1rem 3rem 1rem;
   }
 }
 
@@ -492,6 +491,7 @@ nav ul {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
+  padding-top: 1rem;
 }
 
 .menu-item {
@@ -516,7 +516,7 @@ nav ul {
     height: 80%;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .menu-item__img {
     height: 65%;
   }
@@ -578,21 +578,23 @@ nav ul {
 .access-title {
   padding: 15% 0 0 8%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
+  .access-title {
+    padding: 10% 0 0 8%;
+  }
+}
+@media screen and (max-width: 750px) {
   .access-title {
     height: 40rem;
   }
 }
 
-@media screen and (max-width: 600px) {
-  padding: 20px;
-}
 .access-ad {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .access-ad {
     flex-direction: column-reverse;
     height: 28rem;
@@ -600,17 +602,24 @@ nav ul {
 }
 
 .address {
-  width: 50.7rem;
+  width: 60%;
   height: 39.6rem;
   background-color: #D0C5BA;
   align-items: center;
   padding: 10.1rem 19.3rem 10.312rem 10.4rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
+  .address {
+    width: 60%;
+    padding: 10.1rem 6rem 10.312rem 3rem;
+  }
+}
+@media screen and (max-width: 750px) {
   .address {
     width: 100%;
-    padding: 3rem 2rem 6rem;
+    padding: 3rem 2rem 4rem;
     justify-content: left;
+    height: 28rem;
   }
 }
 
@@ -631,16 +640,34 @@ nav ul {
 
 .access-wrap {
   width: 100%;
+  height: 52%;
+}
+@media screen and (max-width: 959px) {
+  .access-wrap {
+    width: 100%;
+    height: 39.5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .access-wrap {
+    height: 29rem;
+  }
 }
 .access-wrap .map {
   width: 100%;
   height: 39.6rem;
   flex-direction: column;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 959px) {
   .access-wrap .map {
     width: 100%;
-    height: 23rem;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .access-wrap .map {
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -648,7 +675,7 @@ nav ul {
   width: 100vw;
   height: 34.2rem;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
   .footer {
     height: 26rem;
   }

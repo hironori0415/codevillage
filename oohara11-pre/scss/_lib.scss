@@ -28,7 +28,7 @@ $color3: #707070;
 
 
 @mixin sp {
-    @media screen and (max-width: 600px){
+    @media screen and (max-width: 750px){
         @content;
     }
 }
@@ -52,7 +52,7 @@ body {
     font-size: 12px;
     line-height: 1.6;
     letter-spacing: 0.1em;
-    max-width: 1282px;
+    max-width: 2560px;
     min-width: 320px;
 }
 

@@ -478,8 +478,7 @@ nav ul {
   .concept-wrap_item2 {
     font-size: 1.6rem;
     width: initial;
-    margin-left: initial;
-    margin-top: 1.8rem;
+    margin: 1.8rem 1rem 3rem 1rem;
   }
 }
 
@@ -603,7 +602,7 @@ nav ul {
 }
 
 .address {
-  width: 50.7rem;
+  width: 60%;
   height: 39.6rem;
   background-color: #D0C5BA;
   align-items: center;
@@ -611,7 +610,7 @@ nav ul {
 }
 @media screen and (max-width: 959px) {
   .address {
-    width: 40%;
+    width: 60%;
     padding: 10.1rem 6rem 10.312rem 3rem;
   }
 }

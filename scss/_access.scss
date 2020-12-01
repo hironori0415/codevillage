@@ -29,13 +29,14 @@
 }
 
 .address {
-  width: 50.7rem ;
+  width: 60%;
+  // width: 50.7rem ;
   height: 39.6rem;
   background-color: #D0C5BA;
   align-items: center;
   padding: 10.1rem 19.3rem 10.312rem 10.4rem ;
   @include tab {
-    width: 40%;
+    width: 60%;
     padding: 10.1rem 6rem 10.312rem 3rem ;
   }
   @include sp {
